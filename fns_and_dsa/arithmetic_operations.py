@@ -1,4 +1,4 @@
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     """
     Performs basic arithmetic operations based on the provided parameters.
 
@@ -35,6 +35,3 @@ def perform_operation(num1: float, num2: float, operation: str):
         case _:
             # Handle unrecognized operation input
             return f"Error: Invalid operation '{operation}'. Use add, subtract, multiply, or divide."
-
-# Note: You do not need the main.py file here, as it is provided externally 
-# for testing your function.
